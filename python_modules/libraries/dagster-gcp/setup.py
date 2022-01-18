@@ -35,7 +35,6 @@ if __name__ == "__main__":
         install_requires=[
             f"dagster{pin}",
             f"dagster_pandas{pin}",
-            "google-api-python-client<2.0.0",
             "google-cloud-bigquery>=1.19.*,<3",  # 3.0.0b1 gives ModuleNotFoundError: No module named 'db_dtypes'
             "google-cloud-storage",
             "oauth2client",
